@@ -1,7 +1,7 @@
 <?php
    if($_POST["opzione"]==="spotify"){
-   $client_id = "032785936ce341baaaa17e2edbb0c986";
-   $client_secret = "a3d17b15bd4a4b12b6833035665985f5";
+   $client_id = "";
+   $client_secret = "";
    $curl = curl_init();
    curl_setopt($curl, CURLOPT_URL, "https://accounts.spotify.com/api/token");
    curl_setopt($curl, CURLOPT_POST, 1);
